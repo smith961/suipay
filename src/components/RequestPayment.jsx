@@ -71,9 +71,9 @@ export default function RequestPayment() {
                 </nav>
               </div>
               
-              <div className="mt-auto p-4">
-                  <Link to='/'><SidebarItem icon={<LogOut size={20} />} label="Logout" /></Link>
-              </div>
+                <div className="mt-auto p-4">
+                  <a href='/'><SidebarItem icon={<LogOut size={20} />} label="Logout" /></a>
+                </div>
       </div>
       
       {/* Main Section */}

@@ -27,8 +27,9 @@ export default function Setti() {
           </nav>
         </div>
         
+       
         <div className="mt-auto p-4">
-          <SidebarItem icon={<LogOut size={20} />} label="Logout" />
+          <a href='/'><SidebarItem icon={<LogOut size={20} />} label="Logout" /></a>
         </div>
       </div>
       

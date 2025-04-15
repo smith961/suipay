@@ -41,8 +41,8 @@ export default function ProfilePage() {
           </nav>
         </div>
         
-        <div className="mt-auto p-4">
-            <Link to='/'><SidebarItem icon={<LogOut size={20} />} label="Logout" /></Link>
+          <div className="mt-auto p-4">
+            <a href='/'><SidebarItem icon={<LogOut size={20} />} label="Logout" /></a>
           </div>
       </div>
 

@@ -92,7 +92,7 @@ function Dashboard() {
 
          
           <div className="mt-auto p-4">
-          <Link to='/logout'><SidebarItem icon={<LogOut size={20} />} label="Logout" /></Link>
+          <a href='/'><SidebarItem icon={<LogOut size={20} />} label="Logout" /></a>
         </div>
      </div>
       
